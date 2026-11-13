@@ -1,0 +1,51 @@
+# VirtualBox runtime files and VM state
+*.vdi
+*.vbox
+*.vbox-prev
+*.vbox-tmp
+*.nvram
+*.sav
+Snapshots/
+Logs/
+VirtualBox Logs/
+*.log
+*.log.*
+
+# Generated Windows shortcuts and eject worker
+*.lnk
+Garuda-HDD-Eject-Worker.ps1
+*.backup.ps1
+*.bak.ps1
+*.temp.ps1
+
+# Ollama model storage
+models/
+*.gguf
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+*.sublime-*
+
+# Platform metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+
+# Local credentials and keys
+.env
+.env.*
+credentials*
+secrets*
+*.key
+*.pem
+*.ppk
